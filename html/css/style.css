@@ -1,0 +1,20 @@
+html, body
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: transparent url('../images/main_bg.png') no-repeat center center;
+}
+
+#underconstruction 
+{
+    background: transparent url('../images/logo_underconstruction.png') no-repeat;
+    padding: 0;
+    margin: 0;
+    width: 315px;
+    height: 230px;
+}
