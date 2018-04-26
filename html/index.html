@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>New Server Coming Soon!!</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link type="text/css" href="css/style.css" rel="stylesheet" />
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.dimension.js"></script>
+    <script type="text/javascript">
+		$(window).bind("resize", function() {
+			$("#underconstruction").center();
+		});
+		$(window).scroll(function() {
+			$("#underconstruction").center();
+		});
+        $(document).ready(function() {
+			$("#underconstruction").center();
+        });
+    </script>
+</head>
+<body>
+    <div id="underconstruction">
+    </div>
+</body>
+</html>
